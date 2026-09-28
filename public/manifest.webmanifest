@@ -1,0 +1,26 @@
+{
+  "name": "Apna Hisab Kitaab",
+  "short_name": "Hisab Kitaab",
+  "description": "Har Kharchay Ka Apna Hisab — household expense tracker with automatic daily, weekly and monthly totals.",
+  "id": "/",
+  "start_url": "/dashboard",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FAFAF7",
+  "theme_color": "#087F5B",
+  "lang": "en-PK",
+  "categories": ["finance", "lifestyle", "productivity"],
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ],
+  "shortcuts": [
+    { "name": "Add Expense", "short_name": "Add", "url": "/dashboard?add=1", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Today's Record", "short_name": "Today", "url": "/daily" },
+    { "name": "Reports", "url": "/reports" }
+  ]
+}
